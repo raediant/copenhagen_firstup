@@ -1,11 +1,7 @@
 {
   "name": "Firstup Copenhagen",
   "author": "Zendesk with Firstup",
-<<<<<<< HEAD
-  "version": "2.12.036",
-=======
-  "version": "2.12.034",
->>>>>>> a214f6f63aec6dc4503782c2395fdbf73cc253dc
+  "version": "2.12.037",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
