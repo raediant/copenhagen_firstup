@@ -5154,3 +5154,17 @@ html[dir="rtl"] .notification-left-aligned {
 .article-body h1 a, .article-body h2 a, .article-body h3 a, .article-body h4 a {
   color: $text_color;
 }
+
+/* Styles Status bar */
+
+.status-wrapper {
+    width: 100%;
+    text-align: right;
+    background: $highlight_color;
+    padding: 0.25em 24px;
+}
+
+.status-wrapper a {
+  font-size: 14px;
+  padding: 2px 20px 4px 20px;
+}
