@@ -1,6 +1,10 @@
 <footer class="footer">
   <div class="footer-inner">
-    {{#link 'help_center'}}{{help_center.name}}{{/link}}
+    {{#link 'help_center'}}{{help_center.name}}{{/link}} |
+    <a href="https://firstup.io/privacy-policy/">Privacy Policy</a> |
+    <a href="https://support.firstup.io/hc/en-us/p/cookies/">Cookie Settings</a>
+
+    <span class="footer_spacer"></span
 
     <div class="footer-language-selector">
       {{#if alternative_locales}}
@@ -21,6 +25,11 @@
         </div>
       {{/if}}
     </div>
+
   </div>
+
+  <div class="footer-inner">
+     <p style="font-size: 85%; vertical-align: baseline;">To report vulnerabilities within the platform, please contact us at: <a href="mailto:support@firstup.io">support@firstup.io</a></p>
+   </div>
 </footer>
 <script type="text/javascript" src="https://cdn.solvvy.com/deflect/customization/dynamic_signal/solvvy.js" async></script>

@@ -5170,3 +5170,23 @@ html[dir="rtl"] .notification-left-aligned {
   font-size: 14px;
   padding: 2px 20px 4px 20px;
 }
+
+@media (min-width: 768px) {
+  .footer_spacer {
+    min-width: 50%;
+  }
+}
+
+
+/* Cookiebot Banner Styles */
+
+/* Branding on the banner */
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
+}
+
+/* Branding on the widget */
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-main-logo {
+    display: none;
+}
