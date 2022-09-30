@@ -5173,7 +5173,7 @@ html[dir="rtl"] .notification-left-aligned {
 
 @media (min-width: 768px) {
   .footer_spacer {
-    min-width: 50%;
+    min-width: 40%;
   }
 }
 
