@@ -83,6 +83,14 @@
           </div>
         </div>-->
 
+        <ul class="meta-group">
+          <li class="meta-data">{{t 'created'}}</li>
+          <li class="meta-data">{{date article.created_at format='medium'}}</li>
+
+<li class="meta-data">{{t 'updated'}}</li>
+          <li class="meta-data">{{date article.edited_at format='medium'}}</li>
+        </ul>
+
         {{#if settings.show_follow_article}}
           <div class="article-subscribe">{{subscribe}}</div>
         {{/if}}
