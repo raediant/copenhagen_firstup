@@ -23,7 +23,8 @@
       <a class="hc_button" href="https://howto.socialchorus.com">Classic Studio</a>
       <a class="hc_button" href="https://support.dynamicsignal.com/">Dynamic Platform</a>
       {{link 'community'}}
-      {{link 'new_request' class='submit-a-request'}}
+      <!--{{link 'new_request' class='submit-a-request'}}-->
+      <a class="submit-a-request solvvy-support-flow-link" onclick="openZVA()" style="cursor: pointer;">Submit a request</a>
     </nav>
     {{#if signed_in}}
       <div class="user-info dropdown">
@@ -51,3 +52,9 @@
     {{/if}}
   </div>
 </header>
+<!-- Script for ZVA open chat -->
+<script>
+ function openZVA(){
+            window.zoomCampaignSdk.open();
+            return false;}
+</script>
