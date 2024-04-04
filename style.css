@@ -4999,7 +4999,7 @@ html[dir="rtl"] .notification-left-aligned {
     background-color: #ffffff;
     color: #292933;
     display: flex;
-    flex: 1 0 340px;
+    flex: 1 0 265px;
     flex-direction: column;
     justify-content: center;
     text-align: left;
